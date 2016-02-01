@@ -37,6 +37,15 @@ gem 'simple_form'
 # Add Devise
 gem 'devise'
 
+# Add CarrierWave
+gem 'carrierwave'
+
+# Add Figaro
+gem 'figaro'
+
+# Add Fog
+gem 'fog', '~> 1.3.1'
+
 gem 'rails_12factor', group: :production
 
 group :doc do
